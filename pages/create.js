@@ -12,12 +12,8 @@ export default function CreatePage() {
   const dispatch = useDispatch();
   const router = useRouter();
 
-  const { register, handleSubmit, control, formState: { errors } } = useForm({
-    defaultValues: {
-      status: false,
-    }
-  });
-  
+  const { register, handleSubmit, control, formState: { errors } } = useForm({});
+
   const onSubmit = input => {
     const editedTask = getTime(input);
 

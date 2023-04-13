@@ -20,11 +20,7 @@ function EditPage() {
     return false;
   })[0];
 
-  const { register, handleSubmit, formState: { errors } } = useForm({
-    defaultValues: {
-      status: toDoObject.status,
-    }
-  });
+  const { register, handleSubmit, formState: { errors } } = useForm({});
 
   const onSubmit = input => {
     const newObj = data.items.filter((task) => {
