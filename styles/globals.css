@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: #1f8ac0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Staatliches', cursive;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+
+}
+
