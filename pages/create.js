@@ -4,7 +4,7 @@ import { ADD_TASK } from '@/redux/reducers/task';
 import { useForm, Controller } from "react-hook-form";
 import { Checkbox } from '@mui/material';
 import { useRouter } from 'next/router';
-import { getTime } from '@/redux/reducers/task';
+import { getTime } from '@/utils/time';
 import { Button } from '@mui/material';
 
 export default function CreatePage() {

@@ -2,9 +2,9 @@ import Link from 'next/link'
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
 import { Checkbox, FormControlLabel } from '@mui/material';
-import { handleCheckbox } from '../../utils/checkbox';
-import { deleteFetch } from '@/../utils/fetch';
-import { getISODate } from '../../utils/time'
+import { handleCheckbox } from '@/utils/checkbox';
+import { deleteFetch } from '@/utils/fetch';
+import { getISODate } from '@/utils/time';
 
 function ToDoItem({task}) {
     const router = useRouter();

@@ -1,12 +1,12 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getTime } from '@/redux/reducers/task';
+import { getTime } from '@/utils/time';
 import { useForm } from "react-hook-form";
 import { Checkbox } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FormControlLabel } from '@mui/material';
-import { updateFetch } from '../../../utils/fetch';
-import { handleCheckbox } from '@/../utils/checkbox';
+import { updateFetch } from '@/utils/fetch';
+import { handleCheckbox } from '@/utils/checkbox';
 import { Button } from '@mui/material';
 
 function EditPage() {

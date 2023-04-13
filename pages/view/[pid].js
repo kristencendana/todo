@@ -4,10 +4,10 @@ import { useSelector } from 'react-redux';
 import Link from 'next/link';
 import { Checkbox } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { getISODate } from '@/../utils/time';
-import {FormControlLabel} from '@mui/material';
-import { handleCheckbox } from '@/../utils/checkbox';
-import { deleteFetch } from '@/../utils/fetch';
+import { getISODate } from '@/utils/time';
+import { FormControlLabel}  from '@mui/material';
+import { handleCheckbox } from '@/utils/checkbox';
+import { deleteFetch } from '@/utils/fetch';
 
 function ViewPage() {
 
